@@ -1,0 +1,121 @@
+$black: #01101d;
+$white: #fffaff;
+$blue: #1a70bc;
+
+body {
+  background-color: $black;
+  color: $white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+//---------------------------------navbar---------------------------------------
+
+.navbar.navbar-inverse {
+
+  .nav-item {
+
+    a {
+      color: $blue;
+      &:hover, &:focus {
+        color: $white;
+      }
+    }
+
+    &.active {
+      a {
+        color: $white;
+        &:hover, &:focus {
+          color: $white;
+        }
+      }
+    }
+
+  }
+
+  .active {
+    color: $white;
+  }
+
+}
+
+a.navbar-brand {
+  color: $white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+  font-size: 1.4rem;
+  padding-left: 30px;
+  line-height: 34px;
+}
+
+.navnotmenu {
+  background: url("../img/cover.jpg") no-repeat;
+  background-size: 101%;
+  background-position: 0 -600px;
+}
+
+
+
+//------------------------------------------------------------------------------
+
+.jumbotron {
+  background: url("../img/cover.png") no-repeat center bottom;
+  background-size: cover;
+  height: 500px;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+p a, a:hover, a:focus {
+  color: $white;
+  text-decoration: underline;
+}
+
+#profile {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#social-media {
+  text-align: center;
+
+  img {
+    width: 50px;
+    margin: 20px 15px;
+  }
+
+}
+
+.card {
+  color: $black;
+  margin-bottom: 20px;
+  width: 300px;
+  margin: auto;
+  .card-img-top {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .icon {
+    max-height: 2rem;
+    margin-right: 10px;
+  }
+}
+
+.btn-primary {
+  background-color: $blue;
+}

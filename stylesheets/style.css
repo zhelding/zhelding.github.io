@@ -1,0 +1,78 @@
+body {
+  background-color: #01101d;
+  color: #fffaff;
+  font-family: "Josefin Sans", sans-serif; }
+
+.navbar.navbar-inverse .nav-item a {
+  color: #1a70bc; }
+  .navbar.navbar-inverse .nav-item a:hover, .navbar.navbar-inverse .nav-item a:focus {
+    color: #fffaff; }
+.navbar.navbar-inverse .nav-item.active a {
+  color: #fffaff; }
+  .navbar.navbar-inverse .nav-item.active a:hover, .navbar.navbar-inverse .nav-item.active a:focus {
+    color: #fffaff; }
+.navbar.navbar-inverse .active {
+  color: #fffaff; }
+
+a.navbar-brand {
+  color: #fffaff;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+  font-size: 1.4rem;
+  padding-left: 30px;
+  line-height: 34px; }
+
+.navnotmenu {
+  background: url("../img/cover.jpg") no-repeat;
+  background-size: 101%;
+  background-position: 0 -600px; }
+
+.jumbotron {
+  background: url("../img/cover.png") no-repeat center bottom;
+  background-size: cover;
+  height: 500px; }
+
+.lead {
+  font-size: 1.5rem; }
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px; }
+
+p {
+  text-align: justify;
+  font-size: 1.1rem; }
+
+p a, a:hover, a:focus {
+  color: #fffaff;
+  text-decoration: underline; }
+
+#profile {
+  width: 100%;
+  margin-bottom: 20px; }
+
+#social-media {
+  text-align: center; }
+  #social-media img {
+    width: 50px;
+    margin: 20px 15px; }
+
+.card {
+  color: #01101d;
+  margin-bottom: 20px;
+  width: 300px;
+  margin: auto; }
+  .card .card-img-top {
+    max-height: 100%;
+    max-width: 100%; }
+  .card .icon {
+    max-height: 2rem;
+    margin-right: 10px; }
+
+.btn-primary {
+  background-color: #1a70bc; }
+
+/*# sourceMappingURL=style.css.map */
