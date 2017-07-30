@@ -42,7 +42,7 @@
   \colorlet{header}{white}
 \fi
 \colorlet{textcolor}{gray}
-\colorlet{headercolor}{gray}
+\colorlet{headercolor}{darkblue}
 
 %%%%%%%%%
 % Fonts %
