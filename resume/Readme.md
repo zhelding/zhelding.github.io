@@ -1,3 +1,5 @@
+This Readme is reproduced from Adrien Friggeri's original Tex resume template.
+
 # About
 Latest version of my CV, typesetted in Helvetica and using colors inspired by Monokai (there is an `print` option which renders in black and white, and reverts the header to dark on light, if printing on paper is needed).
 
