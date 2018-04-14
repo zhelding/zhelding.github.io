@@ -50,9 +50,9 @@
 
 \RequirePackage[quiet]{fontspec}
 
-\newfontfamily\bodyfont[]{Josefin Sans}
+\newfontfamily\bodyfont[]{Josefin Sans Regular}
 \newfontfamily\thinfont[]{Josefin Sans Light}
-\newfontfamily\headingfont[]{Josefin Sans Bold}
+\newfontfamily\headingfont[]{Josefin Sans SemiBold}
 
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Josefin Sans Light}
@@ -287,7 +287,6 @@
 
 \DeclareNameFormat{author}{%
   \small\addfontfeature{Color=lightgray}%
-  \ifblank{#3}{}{#3\space}#1%
   \ifthenelse{\value{listcount}<\value{liststop}}
     {\addcomma\space}
     {}%
