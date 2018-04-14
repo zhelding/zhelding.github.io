@@ -38,7 +38,7 @@
   \colorlet{fillheader}{white}
   \colorlet{header}{darkblue}
 \else
-  \colorlet{fillheader}{darkblue}
+  \colorlet{fillheader}{darkgray}
   \colorlet{header}{white}
 \fi
 \colorlet{textcolor}{gray}
