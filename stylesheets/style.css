@@ -3,26 +3,24 @@ body {
   color: #f8f9fa;
   font-family: "Josefin Sans", sans-serif; }
 
-.jumbotron {
-  background-color: #212529; }
-
-.card {
-  color: black;
-  min-width: 250px;
-  max-width: 400px; }
-  .card .icon {
-    max-height: 1.5rem;
-    margin-right: 10px; }
-
-#social-media {
-  text-align: center; }
-  #social-media img {
-    width: 50px;
-    margin: 20px 15px; }
+.navbar {
+  margin-bottom: 6rem;
+  background-color: #343a40; }
 
 #profile {
-  width: 100%; }
+  display: block;
+  float: right;
+  width: 150px;
+  border-radius: 50%; }
 
+@media (max-width: 575.98px) {
+  .display-4 {
+    text-align: center; }
+
+  #profile {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; } }
 h2 {
   text-align: center;
   margin: 20px; }
