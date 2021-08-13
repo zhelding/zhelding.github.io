@@ -1,0 +1,36 @@
+body {
+  background-color: #212529;
+  color: #f8f9fa;
+  font-family: "Josefin Sans", sans-serif; }
+
+.navbar {
+  background-color: #343a40; }
+
+#profile {
+  display: block;
+  float: right;
+  width: 150px;
+  border-radius: 50%; }
+
+@media (max-width: 575.98px) {
+  .display-4, .h5 {
+    text-align: center; }
+
+  #profile {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; } }
+a.navbar-brand {
+  font-size: 2rem; }
+
+p a, a:hover, a:focus {
+  color: #f8f9fa;
+  text-decoration: underline; }
+
+#social-media {
+  text-align: center; }
+  #social-media img {
+    width: 50px;
+    margin: 20px 15px; }
+
+/*# sourceMappingURL=style.css.map */

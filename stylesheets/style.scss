@@ -1,0 +1,52 @@
+@import "../bootstrap-5.0.1/scss/functions";
+@import "../bootstrap-5.0.1/scss/variables";
+@import "../bootstrap-5.0.1/scss/mixins";
+
+$dark: #212529;
+$white: #f8f9fa;
+
+body {
+    background-color: $dark;
+    color: $white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+    background-color: $gray-800;
+}
+
+#profile {
+    display: block;
+    float: right;
+    width: 150px;
+    border-radius: 50%;
+}
+
+@include media-breakpoint-down(sm) {
+    .display-4, .h5 {
+        text-align: center;
+    }
+
+    #profile {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+a.navbar-brand {
+    font-size: 2rem;
+}
+
+p a, a:hover, a:focus {
+    color: $white;
+    text-decoration: underline;
+}
+
+#social-media {
+  text-align: center; 
+  img {
+	  width: 50px;
+	  margin: 20px 15px
+  }
+}

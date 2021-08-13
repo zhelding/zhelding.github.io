@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{zoe}{helding}{tech - games - politics} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Logan Square
+Chicago, IL 60647
+~
+708 203 5028
+~
+\href{mailto:zoe.helding@gmail.com}{zoe.helding@gmail.com}
+\href{https://github.com/zhelding}{github://zhelding}
+\href{https://stumblecatstudios.itch.io/}{itch://StumblecatStudios}
+\href{https://www.linkedin.com/in/zhelding/}{linkedin://zhelding}
+\section{about me}
+I am a self-taught software engineer with broad programming experience and a knack for learning -- looking to break into the games industry.
+\section{technical competencies}
+Godot
+Unity
+Unix systems
+Bash / Shell
+Git / GitHub / GitLab
+cloud architecture
+AWS
+infrastructure as code
+CI / CD pipelines
+web development
+ETL data processes
+statistical analysis
+Jira
+Scrum
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2021--2022}
+{HashiCorp}
+{Remote Position}
+{{Software Engineer}
+\begin{itemize}
+\item Engineer on the team maintaining the Terraform AWS Provider - a large, popular open-source repository downloaded nearly 20 million times a week
+\item Resolved reported issues - collaborating with users to implement bug fixes and new features, including support for a number of AWS resources
+\item Collaborated with AWS to implement new QuickSight API functionality requested by State Farm and update their relevant documentation
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{2020--2021}
+{CivicActions}
+{Remote Position}
+{{Full Stack Engineer}
+\begin{itemize}
+\item Maintained and upgraded internal resources hosted on a GCP Kubernetes cluster via a GitLab CI pipeline using Terraform infrastructure as code
+\item Monitored uptime on company homesite and performed a series of front-end upgrades in conjunction with our design team
+\item Set up an internal IT support system and fielded tickets -- providing triaged incident support across our entire organization
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{2019--2020}
+{Gray Matter Analytics}
+{Chicago, Illinois}
+{{Software Engineer}
+\begin{itemize}
+\item Designed and deployed reusable cloud infrastructure for clients across AWS and Azure using Terraform and Terragrunt
+\item Wrote Bash and Python scripts to automate server configuration upon deployment as well as regular maintenance
+\item Troubleshot issues across our tech stack (MongoDB, Flask API, Angular frontend) as necessary
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{2017--2019}
+{Analyst Institute}
+{Remote Position}
+{{Software Engineer}
+\begin{itemize}
+\item Solo developer on Babbleverse, an SMS survey recruitment tool powered by Flask designed for use by progressive political organizations
+\item Implemented a new company-wide data architecture using AWS cloud resources, including a voter file pipeline processed using Hadoop
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{2016--2017}
+{270 Strategies}
+{Chicago, Illinois}
+{Data Analyst}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2013--2016}
+{Bachelor {\normalfont of Philosophy, Politics, and Economics}}
+{University of Oxford}
+{Won a prize for best undergraduate thesis in politics}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} game design, simulated systems, remote project management, DevOps 
+
+\textbf{personal:} games of all kinds (video, board, tabletop, card), music performance, journaling
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
